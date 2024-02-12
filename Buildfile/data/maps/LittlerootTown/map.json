@@ -30,7 +30,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LittlerootTown_EventScript_Twin",
+      "script": "LittlerootTown_EventScript_SignTest",
       "flag": "0"
     },
     {
@@ -127,21 +127,21 @@
   ],
   "warp_events": [
     {
-      "x": 14,
-      "y": 8,
+      "x": 20,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
       "dest_warp_id": "1"
     },
     {
-      "x": 5,
-      "y": 8,
+      "x": 4,
+      "y": 16,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
       "dest_warp_id": "1"
     },
     {
-      "x": 7,
+      "x": 6,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
@@ -152,7 +152,7 @@
     {
       "type": "trigger",
       "x": 10,
-      "y": 1,
+      "y": 0,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "0",
@@ -161,7 +161,7 @@
     {
       "type": "trigger",
       "x": 11,
-      "y": 1,
+      "y": 0,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "0",
@@ -169,9 +169,9 @@
     },
     {
       "type": "trigger",
-      "x": 11,
-      "y": 1,
-      "elevation": 3,
+      "x": 14,
+      "y": -2,
+      "elevation": 7,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "1",
       "script": "LittlerootTown_EventScript_GoSaveBirchTrigger"
@@ -243,23 +243,23 @@
     {
       "type": "sign",
       "x": 6,
-      "y": 17,
+      "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_EventScript_BirchsLabSign"
     },
     {
       "type": "sign",
-      "x": 7,
-      "y": 8,
+      "x": 6,
+      "y": 14,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_EventScript_BrendansHouseSign"
     },
     {
       "type": "sign",
-      "x": 12,
-      "y": 8,
+      "x": 17,
+      "y": 15,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_EventScript_MaysHouseSign"
