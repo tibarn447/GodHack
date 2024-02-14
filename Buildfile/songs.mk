@@ -132,7 +132,7 @@ $(MID_SUBDIR)/mus_route120.s: %.s: %.mid
 $(MID_SUBDIR)/mus_route122.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G021 -V080
 
-$(MID_SUBDIR)/mus_route101.s: %.s: %.mid
+$(MID_SUBDIR)/mus_IFMAPDONOTUSE.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G011 -V080
 
 $(MID_SUBDIR)/mus_dummy.s: %.s: %.mid
@@ -297,7 +297,7 @@ $(MID_SUBDIR)/mus_encounter_magma.s: %.s: %.mid
 $(MID_SUBDIR)/mus_lilycove.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G054 -V085
 
-$(MID_SUBDIR)/mus_littleroot.s: %.s: %.mid
+$(MID_SUBDIR)/mus_Laulev.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G051 -V100
 
 $(MID_SUBDIR)/mus_surf.s: %.s: %.mid
@@ -603,7 +603,7 @@ $(MID_SUBDIR)/mus_link_contest_p3.s: %.s: %.mid
 $(MID_SUBDIR)/mus_link_contest_p4.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G042 -V090
 
-$(MID_SUBDIR)/mus_littleroot_test.s: %.s: %.mid
+$(MID_SUBDIR)/mus_Laulev_test.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G034 -V099
 
 $(MID_SUBDIR)/mus_credits.s: %.s: %.mid
