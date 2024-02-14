@@ -351,7 +351,7 @@ gSongTable::
 	song dummy_song_header, 0, 0
 	song dummy_song_header, 0, 0
 	song dummy_song_header, 0, 0
-	song mus_Laulev_test, 0, 0
+	song mus_Littleroot_test, 0, 0
 	song mus_gsc_route38, 0, 0
 	song mus_caught, 0, 0
 	song mus_victory_wild, 0, 0
@@ -360,7 +360,7 @@ gSongTable::
 	song mus_c_comm_center, 0, 0
 	song mus_gsc_pewter, 0, 0
 	song mus_c_vs_legend_beast, 0, 0
-	song mus_IFMAPDONOTUSE, 0, 0
+	song mus_ROUTE101, 0, 0
 	song mus_route110, 0, 0
 	song mus_route120, 0, 0
 	song mus_petalburg, 0, 0
@@ -406,7 +406,7 @@ gSongTable::
 	song mus_route119, 0, 0
 	song mus_cycling, 0, 0
 	song mus_poke_mart, 0, 0
-	song mus_Laulev, 0, 0
+	song mus_Littleroot, 0, 0
 	song mus_mt_chimney, 0, 0
 	song mus_encounter_female, 0, 0
 	song mus_lilycove, 0, 0

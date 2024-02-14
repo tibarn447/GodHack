@@ -77,8 +77,8 @@
       ],
       "encounters": [
         {
-          "map": "MAP_IFMAPDONOTUSE",
-          "base_label": "gIFMAPDONOTUSE",
+          "map": "MAP_ROUTE101",
+          "base_label": "gROUTE101",
           "land_mons": {
             "encounter_rate": 20,
             "mons": [
@@ -11493,8 +11493,8 @@
           }
         },
         {
-          "map": "MAP_LAULEV_WOODS",
-          "base_label": "gIFMAPDONOTUSE0",
+          "map": "MAP_Littleroot_WOODS",
+          "base_label": "gROUTE1010",
           "land_mons": {
             "encounter_rate": 25,
             "mons": [

@@ -1,9 +1,9 @@
 {
-  "id": "MAP_LAULEV_TOWN",
-  "name": "LaulevTown",
-  "layout": "LAYOUT_Laulev_TOWN",
-  "music": "MUS_Laulev",
-  "region_map_section": "MAPSEC_Laulev_TOWN",
+  "id": "MAP_Littleroot_TOWN",
+  "name": "LittlerootTown",
+  "layout": "LAYOUT_Littleroot_TOWN",
+  "music": "MUS_Littleroot",
+  "region_map_section": "MAPSEC_Littleroot_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",
@@ -14,7 +14,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_LAULEV_WOODS",
+      "map": "MAP_Littleroot_WOODS",
       "offset": -24,
       "direction": "left"
     }
@@ -30,7 +30,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LaulevTown_EventScript_Twin",
+      "script": "LittlerootTown_EventScript_Twin",
       "flag": "0"
     },
     {
@@ -43,8 +43,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LaulevTown_EventScript_FatMan",
-      "flag": "FLAG_HIDE_Laulev_TOWN_FAT_MAN"
+      "script": "LittlerootTown_EventScript_FatMan",
+      "flag": "FLAG_HIDE_Littleroot_TOWN_FAT_MAN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
@@ -56,7 +56,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LaulevTown_EventScript_Boy",
+      "script": "LittlerootTown_EventScript_Boy",
       "flag": "0"
     },
     {
@@ -69,8 +69,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LaulevTown_EventScript_Mom",
-      "flag": "FLAG_HIDE_Laulev_TOWN_MOM_OUTSIDE"
+      "script": "LittlerootTown_EventScript_Mom",
+      "flag": "FLAG_HIDE_Littleroot_TOWN_MOM_OUTSIDE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TRUCK",
@@ -83,7 +83,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_Laulev_TOWN_BRENDANS_HOUSE_TRUCK"
+      "flag": "FLAG_HIDE_Littleroot_TOWN_BRENDANS_HOUSE_TRUCK"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TRUCK",
@@ -96,7 +96,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_Laulev_TOWN_MAYS_HOUSE_TRUCK"
+      "flag": "FLAG_HIDE_Littleroot_TOWN_MAYS_HOUSE_TRUCK"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
@@ -109,7 +109,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_Laulev_TOWN_RIVAL"
+      "flag": "FLAG_HIDE_Littleroot_TOWN_RIVAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
@@ -122,7 +122,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_Laulev_TOWN_BIRCH"
+      "flag": "FLAG_HIDE_Littleroot_TOWN_BIRCH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -167,81 +167,81 @@
       "x": 16,
       "y": 0,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "0",
-      "script": "LaulevTown_EventScript_NeedPokemonTriggerLeft"
+      "script": "LittlerootTown_EventScript_NeedPokemonTriggerLeft"
     },
     {
       "type": "trigger",
       "x": 17,
       "y": 0,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "0",
-      "script": "LaulevTown_EventScript_NeedPokemonTriggerRight"
+      "script": "LittlerootTown_EventScript_NeedPokemonTriggerRight"
     },
     {
       "type": "trigger",
       "x": 18,
       "y": -2,
       "elevation": 7,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "1",
-      "script": "LaulevTown_EventScript_GoSaveBirchTrigger"
+      "script": "LittlerootTown_EventScript_GoSaveBirchTrigger"
     },
     {
       "type": "trigger",
       "x": 12,
       "y": 9,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "3",
-      "script": "LaulevTown_EventScript_GiveRunningShoesTrigger4"
+      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger4"
     },
     {
       "type": "trigger",
       "x": 13,
       "y": 9,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "3",
-      "script": "LaulevTown_EventScript_GiveRunningShoesTrigger5"
+      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger5"
     },
     {
       "type": "trigger",
       "x": 14,
       "y": 9,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "3",
-      "script": "LaulevTown_EventScript_GiveRunningShoesTrigger2"
+      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger2"
     },
     {
       "type": "trigger",
       "x": 15,
       "y": 9,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "3",
-      "script": "LaulevTown_EventScript_GiveRunningShoesTrigger3"
+      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger3"
     },
     {
       "type": "trigger",
       "x": 14,
       "y": 2,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "3",
-      "script": "LaulevTown_EventScript_GiveRunningShoesTrigger0"
+      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger0"
     },
     {
       "type": "trigger",
       "x": 15,
       "y": 2,
       "elevation": 3,
-      "var": "VAR_Laulev_TOWN_STATE",
+      "var": "VAR_Littleroot_TOWN_STATE",
       "var_value": "3",
-      "script": "LaulevTown_EventScript_GiveRunningShoesTrigger1"
+      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger1"
     }
   ],
   "bg_events": [
@@ -251,7 +251,7 @@
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LaulevTown_EventScript_TownSign"
+      "script": "LittlerootTown_EventScript_TownSign"
     },
     {
       "type": "sign",
@@ -259,7 +259,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LaulevTown_EventScript_BirchsLabSign"
+      "script": "LittlerootTown_EventScript_BirchsLabSign"
     },
     {
       "type": "sign",
@@ -267,7 +267,7 @@
       "y": 14,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LaulevTown_EventScript_BrendansHouseSign"
+      "script": "LittlerootTown_EventScript_BrendansHouseSign"
     },
     {
       "type": "sign",
@@ -275,7 +275,7 @@
       "y": 15,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LaulevTown_EventScript_MaysHouseSign"
+      "script": "LittlerootTown_EventScript_MaysHouseSign"
     },
     {
       "type": "sign",
@@ -283,7 +283,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LaulevTown_EventScript_SignTest"
+      "script": "LittlerootTown_EventScript_SignTest"
     }
   ]
 }
