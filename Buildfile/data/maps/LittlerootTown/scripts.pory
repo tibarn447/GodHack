@@ -1,6 +1,5 @@
-<<<<<<< Updated upstream
-mapscripts StarterMon_MapScripts {}
-mapscripts StarterKit_MapScripts{}
+mapscripts NewTown_MapScripts {}
+
 raw `# 1 "data/maps/LittlerootTown/scripts.pory"
 .set LOCALID_TWIN, 1
 # 2 "data/maps/LittlerootTown/scripts.pory"
@@ -3075,9 +3074,6 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my LAB.$"
 `
 
-
-
->>>>>>> Stashed changes
 script LittlerootTown_EventScript_SignTest {
 lock
 msgbox("Hello Gamers")
@@ -3085,15 +3081,6 @@ release
 end
 }
 
-<<<<<<< Updated upstream
-StarterKit_MapScripts
-lock
-giveitem POTION 3
-giveitem POKE_BALL 5
-release
-
-script StarterMon_EventScript_Pokeball1{
-=======
 script NewTown_EventScript {
 lock
 giveitem(ITEM_POTION, 3)
@@ -3102,7 +3089,6 @@ release
 }
 
 script NewTown_EventScript_Pokeball1{
->>>>>>> Stashed changes
  
     lockall
     showmonpic(SPECIES_POLIWAG, 10,3)
