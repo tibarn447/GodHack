@@ -9,7 +9,7 @@ LittlerootTown_MaysHouse_1F_MapScripts::
 	.byte 0
 
 LittlerootTown_MaysHouse_1F_OnLoad:
-	call_if_lt VAR_Littleroot_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_SetMovingBoxes
+	call_if_lt VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_SetMovingBoxes
 	call_if_set FLAG_RECEIVED_RUNNING_SHOES, LittlerootTown_MaysHouse_1F_EventScript_CheckShowShoesManual
 	end
 
@@ -28,9 +28,9 @@ LittlerootTown_MaysHouse_1F_EventScript_ShowRunningShoesManual::
 	return
 
 LittlerootTown_MaysHouse_1F_OnTransition:
-	call_if_eq VAR_Littleroot_INTRO_STATE, 3, LittlerootTown_MaysHouse_1F_EventScript_MoveMomToDoor
-	call_if_eq VAR_Littleroot_INTRO_STATE, 5, LittlerootTown_MaysHouse_1F_EventScript_MoveMomToStairs
-	call_if_eq VAR_Littleroot_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_MoveMomToTV
+	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_MaysHouse_1F_EventScript_MoveMomToDoor
+	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_MaysHouse_1F_EventScript_MoveMomToStairs
+	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_MoveMomToTV
 	end
 
 LittlerootTown_MaysHouse_1F_EventScript_MoveMomToStairs::
@@ -50,11 +50,11 @@ LittlerootTown_MaysHouse_1F_EventScript_MoveMomToDoor::
 
 @ Many of the below scripts have no gender check because they assume youre in the correct house
 LittlerootTown_MaysHouse_1F_OnFrame:
-	map_script_2 VAR_Littleroot_INTRO_STATE, 3, LittlerootTown_MaysHouse_1F_EventScript_EnterHouseMovingIn
-	map_script_2 VAR_Littleroot_INTRO_STATE, 5, LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock
-	map_script_2 VAR_Littleroot_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_PetalburgGymReport
-	map_script_2 VAR_Littleroot_HOUSES_STATE_BRENDAN, 1, LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor
-	map_script_2 VAR_Littleroot_HOUSES_STATE_MAY, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
+	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_MaysHouse_1F_EventScript_EnterHouseMovingIn
+	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock
+	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_PetalburgGymReport
+	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1, LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor
+	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
 	.2byte 0
 
 LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock::
@@ -64,7 +64,7 @@ LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock::
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs
 	applymovement LOCALID_MOM, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs
 	waitmovement 0
-	warp MAP_Littleroot_TOWN_MAYS_HOUSE_2F, 1, 1
+	warp MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F, 1, 1
 	waitstate
 	releaseall
 	end
@@ -100,7 +100,7 @@ LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor::
 	special GetRivalSonDaughterString
 	msgbox RivalsHouse_1F_Text_OhYoureTheNewNeighbor, MSGBOX_DEFAULT
 	setflag FLAG_MET_RIVAL_MOM
-	setvar VAR_Littleroot_HOUSES_STATE_BRENDAN, 2
+	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 2
 	releaseall
 	end
 
@@ -118,7 +118,7 @@ RivalsHouse_1F_EventScript_RivalMom::
 	faceplayer
 	goto_if_set FLAG_DEFEATED_RIVAL_ROUTE103, RivalsHouse_1F_EventScript_GoHomeEverySoOften
 	goto_if_set FLAG_SYS_POKEMON_GET, RivalsHouse_1F_EventScript_RivalIsOnRoute103
-	goto_if_eq VAR_Littleroot_RIVAL_STATE, 3, RivalsHouse_1F_EventScript_RivalTooBusy
+	goto_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, RivalsHouse_1F_EventScript_RivalTooBusy
 	special GetRivalSonDaughterString
 	msgbox RivalsHouse_1F_Text_LikeChildLikeFather, MSGBOX_DEFAULT
 	release
@@ -196,12 +196,12 @@ LittlerootTown_MaysHouse_1F_EventScript_MeetRival::
 	call_if_eq VAR_0x8008, 2, LittlerootTown_MaysHouse_1F_EventScript_MayGoUpstairs2
 	playse SE_EXIT
 	removeobject LOCALID_RIVAL
-	setflag FLAG_HIDE_Littleroot_TOWN_MAYS_HOUSE_MAY
-	setflag FLAG_HIDE_Littleroot_TOWN_MAYS_HOUSE_2F_POKE_BALL
-	clearflag FLAG_HIDE_Littleroot_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
 	delay 30
-	setvar VAR_Littleroot_RIVAL_STATE, 3
-	setvar VAR_Littleroot_TOWN_STATE, 1
+	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
+	setvar VAR_LITTLEROOT_TOWN_STATE, 1
 	savebgm MUS_DUMMY
 	fadedefaultbgm
 	releaseall
