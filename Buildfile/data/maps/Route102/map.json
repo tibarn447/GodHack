@@ -14,7 +14,11 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
+<<<<<<< Updated upstream
       "map": "MAP_Littleroot_TOWN",
+=======
+      "map": "MAP_LITTLEROOT_TOWN",
+>>>>>>> Stashed changes
       "offset": 20,
       "direction": "right"
     }
