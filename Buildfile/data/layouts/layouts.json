@@ -92,7 +92,7 @@
       "blockdata_filepath": "data/layouts/EverGrandeCity/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN",
+      "id": "LAYOUT_LITTLEROOT_TOWN",
       "name": "LittlerootTown_Layout",
       "width": 37,
       "height": 25,
@@ -532,7 +532,7 @@
       "blockdata_filepath": "data/layouts/Underwater_Route128/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN_BRENDANS_HOUSE_1F",
+      "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
       "name": "LittlerootTown_BrendansHouse_1F_Layout",
       "width": 11,
       "height": 9,
@@ -542,7 +542,7 @@
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN_BRENDANS_HOUSE_2F",
+      "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
       "name": "LittlerootTown_BrendansHouse_2F_Layout",
       "width": 9,
       "height": 8,
@@ -552,7 +552,7 @@
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN_MAYS_HOUSE_1F",
+      "id": "LAYOUT_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
       "name": "LittlerootTown_MaysHouse_1F_Layout",
       "width": 11,
       "height": 9,
@@ -562,7 +562,7 @@
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN_MAYS_HOUSE_2F",
+      "id": "LAYOUT_LITTLEROOT_TOWN_MAYS_HOUSE_2F",
       "name": "LittlerootTown_MaysHouse_2F_Layout",
       "width": 9,
       "height": 8,
@@ -572,7 +572,7 @@
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN_PROFESSOR_BIRCHS_LAB",
+      "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
       "name": "LittlerootTown_ProfessorBirchsLab_Layout",
       "width": 13,
       "height": 13,
@@ -4312,7 +4312,7 @@
       "blockdata_filepath": "data/layouts/MeteorFalls_StevensCave/map.bin"
     },
     {
-      "id": "LAYOUT_Littleroot_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE",
+      "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE",
       "name": "LittlerootTown_ProfessorBirchsLabWithTable_Layout",
       "width": 13,
       "height": 13,
