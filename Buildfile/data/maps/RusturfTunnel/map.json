@@ -33,14 +33,14 @@
       "x": 4,
       "y": 10,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE102",
+      "dest_map": "MAP_LAULEVCANYON",
       "dest_warp_id": "0"
     },
     {
       "x": 29,
       "y": 16,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE102",
+      "dest_map": "MAP_LAULEVCANYON",
       "dest_warp_id": "1"
     },
     {

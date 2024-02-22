@@ -1,4 +1,4 @@
-Route102_EventScript_ItemPotion::
+LAULEVCANYON_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
 

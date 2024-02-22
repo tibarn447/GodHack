@@ -121,7 +121,7 @@ gStdScripts_End::
 	.include "data/maps/VerdanturfTown/scripts.inc"
 	.include "data/maps/PacifidlogTown/scripts.inc"
 	.include "data/maps/LAULEVWOODS/scripts.inc"
-	.include "data/maps/Route102/scripts.inc"
+	.include "data/maps/LAULEVCANYON/scripts.inc"
 	.include "data/maps/Route103/scripts.inc"
 	.include "data/maps/Route104/scripts.inc"
 	.include "data/maps/Route105/scripts.inc"
