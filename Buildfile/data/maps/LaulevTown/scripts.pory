@@ -1,0 +1,31 @@
+mapscripts LaulevTown_MapScripts {}
+
+script LaulevTown_EventScript_SignTest {
+lock
+msgbox("Hello Gamers")
+release
+end
+}
+
+script LaulevTown_EventScript_IntFlags{
+    setflag(FLAG_SYS_B_DASH)
+    setflag(FLAG_SYS_POKEDEX_GET)
+    setflag(FLAG_SYS_NATIONAL_DEX)
+    setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+    setflag(FLAG_ADVENTURE_STARTED)
+    special(EnableNationalPokedex)
+    setvar(VAR_LAULEV_TOWN_STATE,1) 
+}
+
+script LaulevTown_EventScript_FreeShit {
+lock
+giveitem(ITEM_ORAN_BERRY, 3)
+giveitem(ITEM_PECHA_BERRY, 2)
+giveitem(ITEM_POKE_BALL, 5)
+release
+}
+
+
+
+
+

@@ -7159,11 +7159,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_FAMILY_ONIX
     [SPECIES_ONIX] =
     {
-        .baseHP        = 35,
-        .baseAttack    = 45,
+        .baseHP        = 50,
+        .baseAttack    = 50,
         .baseDefense   = 160,
-        .baseSpeed     = 70,
-        .baseSpAttack  = 30,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 25,
         .baseSpDefense = 45,
         .types = { TYPE_ROCK, TYPE_GROUND },
         .catchRate = 45,
@@ -9916,11 +9916,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_MAGBY] =
     {
         .baseHP        = 45,
-        .baseAttack    = 75,
-        .baseDefense   = 37,
-        .baseSpeed     = 83,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 55,
+        .baseAttack    = 45,
+        .baseDefense   = 35,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 45,
         .types = { TYPE_FIRE, TYPE_FIRE },
         .catchRate = 45,
         .expYield = 73,

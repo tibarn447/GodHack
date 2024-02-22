@@ -92,14 +92,14 @@
       "blockdata_filepath": "data/layouts/EverGrandeCity/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN",
-      "name": "LittlerootTown_Layout",
-      "width": 37,
-      "height": 25,
+      "id": "LAYOUT_LAULEV_TOWN",
+      "name": "LaulevTown_Layout",
+      "width": 38,
+      "height": 34,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/LittlerootTown/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown/map.bin"
+      "border_filepath": "data/layouts/LaulevTown/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown/map.bin"
     },
     {
       "id": "LAYOUT_OLDALE_TOWN",
@@ -162,20 +162,20 @@
       "blockdata_filepath": "data/layouts/PacifidlogTown/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE101",
-      "name": "ROUTE101_Layout",
+      "id": "LAYOUT_LAULEV_WOODS",
+      "name": "LaulevWoods_Layout",
       "width": 20,
-      "height": 35,
+      "height": 45,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/ROUTE101/border.bin",
-      "blockdata_filepath": "data/layouts/ROUTE101/map.bin"
+      "border_filepath": "data/layouts/LAULEVWOODS/border.bin",
+      "blockdata_filepath": "data/layouts/LAULEVWOODS/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE102",
       "name": "Route102_Layout",
-      "width": 26,
-      "height": 30,
+      "width": 50,
+      "height": 38,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route102/border.bin",
@@ -532,54 +532,54 @@
       "blockdata_filepath": "data/layouts/Underwater_Route128/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
-      "name": "LittlerootTown_BrendansHouse_1F_Layout",
+      "id": "LAYOUT_LAULEV_TOWN_BRENDANS_HOUSE_1F",
+      "name": "LaulevTown_BrendansHouse_1F_Layout",
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
-      "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/map.bin"
+      "border_filepath": "data/layouts/LaulevTown_BrendansHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown_BrendansHouse_1F/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
-      "name": "LittlerootTown_BrendansHouse_2F_Layout",
+      "id": "LAYOUT_LAULEV_TOWN_BRENDANS_HOUSE_2F",
+      "name": "LaulevTown_BrendansHouse_2F_Layout",
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
-      "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/map.bin"
+      "border_filepath": "data/layouts/LaulevTown_BrendansHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown_BrendansHouse_2F/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
-      "name": "LittlerootTown_MaysHouse_1F_Layout",
+      "id": "LAYOUT_LAULEV_TOWN_MAYS_HOUSE_1F",
+      "name": "LaulevTown_MaysHouse_1F_Layout",
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
-      "border_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/map.bin"
+      "border_filepath": "data/layouts/LaulevTown_MaysHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown_MaysHouse_1F/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN_MAYS_HOUSE_2F",
-      "name": "LittlerootTown_MaysHouse_2F_Layout",
+      "id": "LAYOUT_LAULEV_TOWN_MAYS_HOUSE_2F",
+      "name": "LaulevTown_MaysHouse_2F_Layout",
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
-      "border_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/map.bin"
+      "border_filepath": "data/layouts/LaulevTown_MaysHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown_MaysHouse_2F/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
-      "name": "LittlerootTown_ProfessorBirchsLab_Layout",
-      "width": 13,
-      "height": 13,
+      "id": "LAYOUT_LAULEV_TOWN_PROFESSOR_BIRCHS_LAB",
+      "name": "LaulevTown_ProfessorBirchsLab_Layout",
+      "width": 14,
+      "height": 12,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Lab",
-      "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/map.bin"
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/LaulevTown_ProfessorBirchsLab/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown_ProfessorBirchsLab/map.bin"
     },
     {
       "id": "LAYOUT_HOUSE1",
@@ -1964,10 +1964,10 @@
     {
       "id": "LAYOUT_SECRET_BASE_RED_CAVE1",
       "name": "SecretBase_RedCave1_Layout",
-      "width": 11,
-      "height": 9,
+      "width": 16,
+      "height": 16,
       "primary_tileset": "gTileset_SecretBase",
-      "secondary_tileset": "gTileset_SecretBaseRedCave",
+      "secondary_tileset": "gTileset_SecretBaseTree",
       "border_filepath": "data/layouts/SecretBase_RedCave1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_RedCave1/map.bin"
     },
@@ -4312,14 +4312,14 @@
       "blockdata_filepath": "data/layouts/MeteorFalls_StevensCave/map.bin"
     },
     {
-      "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE",
-      "name": "LittlerootTown_ProfessorBirchsLabWithTable_Layout",
+      "id": "LAYOUT_LAULEV_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE",
+      "name": "LaulevTown_ProfessorBirchsLabWithTable_Layout",
       "width": 13,
       "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Lab",
-      "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLabWithTable/border.bin",
-      "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLabWithTable/map.bin"
+      "border_filepath": "data/layouts/LaulevTown_ProfessorBirchsLabWithTable/border.bin",
+      "blockdata_filepath": "data/layouts/LaulevTown_ProfessorBirchsLabWithTable/map.bin"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_1F_CLEAN",

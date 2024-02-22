@@ -1,0 +1,27 @@
+mapscripts RusturfTunnel_MapScripts{}
+
+script RusturfTunnel_EventScript_Trainer{
+	trainerbattle_single(TRAINER_JOE_1, BoyIntroText,BoyOutroText)
+	msgbox(PostBattleBoy,MSGBOX_AUTOCLOSE)
+	waitmessage
+end 
+
+}
+
+
+text PostBattleBoy{
+	"That was fun!"}
+
+
+	text BoyIntroText{format(
+	"Hehe.\p"
+	"I borrowed one of my dad's Pokemon"
+	"and came out here to play."
+	)}
+
+	#Boy Battle End
+
+	text BoyOutroText{
+		"That was fun!"
+	}
+	

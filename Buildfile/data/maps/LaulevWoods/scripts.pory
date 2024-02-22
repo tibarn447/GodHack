@@ -1,0 +1,30 @@
+mapscripts LaulevWoods_MapScripts{}
+
+	#Rival battle 1
+
+script LaulevWoods_EventScript_Rival{
+	trainerbattle_single(TRAINER_RIVAL_1, Rival_Intro_Text1,Rival_Outro1)
+	msgbox(PostBattle_Rival1,MSGBOX_AUTOCLOSE)
+	waitmessage
+end 
+
+}
+
+
+text PostBattle_Rival1{
+	"I'll see you back in town I suppose."}
+
+
+	text Rival_Intro_Text1{format(
+	"Hello there, {PLAYER}.\p"
+	"…I see you've got your first Pokemon."
+	"I also just got my first Pokemon."
+	"So what do you say, shall we battle?"
+	)}
+
+	#Rival Battle End
+
+	text Rival_Outro1{
+		"Hehe, you're alright."
+	}
+	
