@@ -85,17 +85,17 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_HOPPIP"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
-                "species": "SPECIES_PIDGEY"
-              },
-              {
-                "min_level": 2,
-                "max_level": 3,
                 "species": "SPECIES_BELLSPROUT"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_WEEDLE"
               },
               {
                 "min_level": 2,
@@ -110,7 +110,7 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_BELLSPROUT"
+                "species": "SPECIES_WEEDLE"
               },
               {
                 "min_level": 2,
@@ -184,32 +184,32 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TRAPINCH"
+                "species": "SPECIES_SANDSHREW"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TRAPINCH"
+                "species": "SPECIES_SANDSHREW"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_PHANPY"
+                "species": "SPECIES_ZIGZAGOON"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_PHANPY"
+                "species": "SPECIES_ZIGZAGOON"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_PHANPY"
+                "species": "SPECIES_ZIGZAGOON"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_PHANPY"
+                "species": "SPECIES_ZIGZAGOON"
               }
             ]
           },
@@ -9219,69 +9219,69 @@
           }
         },
         {
-          "map": "MAP_SKY_PILLAR_1F",
-          "base_label": "gSkyPillar_1F0",
+          "map": "MAP_CHATOT_TOWER_1F",
+          "base_label": "gChatotTower_1F0",
           "land_mons": {
             "encounter_rate": 15,
             "mons": [
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_SWABLU"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
-                "species": "SPECIES_MURKROW"
+                "max_level": 6,
+                "species": "SPECIES_SWABLU"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 4,
-                "max_level": 9,
+                "max_level": 6,
                 "species": "SPECIES_PIDGEY"
               }
             ]

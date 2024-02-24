@@ -1,0 +1,150 @@
+mapscripts ChatotTower1F_MapScripts{}
+
+
+#Give Pansear/Panpour/Pansage based on player choice
+	
+script Give_Monke{
+    if(!(flag( FLAG_MONKE_CHOSEN ))){
+
+    lock
+    faceplayer  
+   // message("Which Pokemon would you like?")
+    // multichoice(25, 5, MULTI_MONKE, 1)
+    //closemessage
+    
+    //if (var(VAR_RESULT) ==0){
+        call(PansearChosen)
+    //}
+    //else{
+        end
+    }
+    }
+
+//}
+
+
+    script PansearChosen{
+    showmonpic(SPECIES_PANSEAR, 10,3)
+
+    msgbox("Do you want to choose Pansear?", MSGBOX_YESNO)
+
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_PANSEAR, 6, ITEM_ORAN_BERRY)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Pansear.")
+            setflag(FLAG_MONKE_CHOSEN)
+            call(ChatotTower_NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Pansear.")
+			setflag(FLAG_MONKE_CHOSEN)
+            call(ChatotTower_NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room.")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(Monke_NotChosen)
+    }
+    waitmessage
+    releaseall
+    }
+
+script ChatotTower_NicknameBoxMon{
+ 
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    call(Common_EventScript_TransferredToPC)
+ 
+}
+
+text Monke_NotChosen{
+"Later Perhaps"}
+
+
+
+script Chatot_Tower_EventScript_Grunt1{
+	trainerbattle_single(TRAINER_GRUNT_AQUA_HIDEOUT_2, Grunt1_IntroText, Grunt1_OutroText)
+	msgbox(Grunt1_PostBattle,MSGBOX_AUTOCLOSE)
+	waitmessage
+end 
+}
+
+script Chatot_Tower_EventScript_Grunt2{
+	trainerbattle_single(TRAINER_GRUNT_AQUA_HIDEOUT_3, Grunt2_IntroText, Grunt2_OutroText)
+	msgbox(Grunt2_PostBattle,MSGBOX_AUTOCLOSE)
+	waitmessage
+end 
+
+}
+
+script Chatot_Tower_EventScript_Jeigan{
+	trainerbattle_double(TRAINER_GRUNT_AQUA_HIDEOUT_4, Jeigan_IntroText, Jeigan_OutroText,Jeigan_NotEnoughPokemon)
+	msgbox(Jeigan_PostBattle,MSGBOX_AUTOCLOSE)
+	waitmessage
+end 
+
+}
+text Jeigan_NotEnoughPokemon{
+    "Come back when you have some more Pokemon"
+}
+
+text Jeigan_IntroText{
+    "That fire in your eyes..."
+}
+
+text Jeigan_OutroText{
+    "placeholder text!"}
+
+text Jeigan_PostBattle{
+    "you will never be epic"
+}    
+
+text Grunt1_IntroText{
+    "Who are you?"
+    "Stay outta the way!"
+} 
+
+text Grunt1_OutroText{
+    "Damn..."
+}
+
+text Grunt1_PostBattle{
+"Hehe, you'll never make it to the top."}
+
+text Grunt2_IntroText{
+    "What did you do to my buddy??"
+
+}
+
+text Grunt2_OutroText{
+    "Oh...I see now."
+}
+
+text Grunt2_PostBattle{
+"Hehe, you won't stand a chance against the boss"
+
+}
+
+
+
+
+
+
+script ChatotTower_NicknamePartyMon{
+ 
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}

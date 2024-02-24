@@ -10568,12 +10568,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
 #if P_FAMILY_EEVEE
 #define EEVEE_MISC_INFO                                                                 \
-        .baseHP        = 55,                                                            \
-        .baseAttack    = 55,                                                            \
+        .baseHP        = 75,                                                            \
+        .baseAttack    = 50,                                                            \
         .baseDefense   = 50,                                                            \
-        .baseSpeed     = 55,                                                            \
-        .baseSpAttack  = 45,                                                            \
-        .baseSpDefense = 65,                                                            \
+        .baseSpeed     = 75,                                                            \
+        .baseSpAttack  = 50,                                                            \
+        .baseSpDefense = 50,                                                            \
         .types = { TYPE_NORMAL, TYPE_NORMAL },                                          \
         .catchRate = 45,                                                                \
         .expYield = 65,                                                                 \

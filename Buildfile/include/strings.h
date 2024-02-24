@@ -3055,4 +3055,10 @@ extern const u8 gText_ExpShareOff[];
 
 extern const u8 gText_BasePointsResetToZero[];
 
+
+// Monke
+extern const u8 gText_MonkePansear[];
+//extern const u8 gText_MonkePanpour[];
+//extern const u8 gText_MonkePansage[];
+
 #endif // GUARD_STRINGS_H

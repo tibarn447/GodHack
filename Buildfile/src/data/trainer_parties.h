@@ -14,26 +14,54 @@ static const struct TrainerMon sParty_LaulevCaveBoy[] = {
 
 static const struct TrainerMon sParty_GruntAquaHideout2[] = {
     {
-    .lvl = 31,
-    .species = SPECIES_ZUBAT,
+    .lvl = 6,
+    .species = SPECIES_EKANS,
     },
     {
-    .lvl = 31,
-    .species = SPECIES_CARVANHA,
+    .lvl = 6,
+    .species = SPECIES_PICHU,
+    },
+    {
+    .lvl = 6,
+    .species = SPECIES_SPINARAK,
     }
 };
 
 static const struct TrainerMon sParty_GruntAquaHideout3[] = {
     {
-    .lvl = 32,
-    .species = SPECIES_ZUBAT,
+    .lvl = 6,
+    .species = SPECIES_CATERPIE,
+    },
+    {
+    .lvl = 6,
+    .species = SPECIES_MACHOP,
+    },
+    {
+    .lvl = 6,
+    .species = SPECIES_SENTRET,
     }
 };
 
 static const struct TrainerMon sParty_GruntAquaHideout4[] = {
     {
-    .lvl = 32,
-    .species = SPECIES_CARVANHA,
+    .lvl = 7,
+    .species = SPECIES_METAPOD,
+       .moves = {MOVE_TACKLE, MOVE_HARDEN, MOVE_STRING_SHOT, MOVE_NONE}
+    },
+    {
+    .lvl = 7,
+    .species = SPECIES_KAKUNA,
+    .moves = {MOVE_TACKLE, MOVE_HARDEN, MOVE_STRING_SHOT, MOVE_NONE}
+    },
+    {
+    .lvl = 7,
+    .species = SPECIES_NIDORAN_F,
+    },
+    {
+    .lvl = 10,
+    .species = SPECIES_EEVEE,
+        .heldItem = ITEM_ORAN_BERRY,
+        .moves = {MOVE_DOUBLE_TEAM, MOVE_GROWL, MOVE_SWIFT, MOVE_PROTECT}
     }
 };
 

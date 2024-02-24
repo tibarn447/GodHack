@@ -371,7 +371,7 @@
 #define MAP_AQUA_HIDEOUT_UNUSED_RUBY_MAP3            (76 | (24 << 8))
 #define MAP_SKY_PILLAR_ENTRANCE                      (77 | (24 << 8))
 #define MAP_SKY_PILLAR_OUTSIDE                       (78 | (24 << 8))
-#define MAP_SKY_PILLAR_1F                            (79 | (24 << 8))
+#define MAP_CHATOT_TOWER_1F                          (79 | (24 << 8))
 #define MAP_SKY_PILLAR_2F                            (80 | (24 << 8))
 #define MAP_SKY_PILLAR_3F                            (81 | (24 << 8))
 #define MAP_SKY_PILLAR_4F                            (82 | (24 << 8))

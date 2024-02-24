@@ -421,7 +421,7 @@ gStdScripts_End::
 	.include "data/maps/AquaHideout_UnusedRubyMap3/scripts.inc"
 	.include "data/maps/SkyPillar_Entrance/scripts.inc"
 	.include "data/maps/SkyPillar_Outside/scripts.inc"
-	.include "data/maps/SkyPillar_1F/scripts.inc"
+	.include "data/maps/ChatotTower_1F/scripts.inc"
 	.include "data/maps/SkyPillar_2F/scripts.inc"
 	.include "data/maps/SkyPillar_3F/scripts.inc"
 	.include "data/maps/SkyPillar_4F/scripts.inc"

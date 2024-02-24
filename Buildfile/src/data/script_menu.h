@@ -776,6 +776,13 @@ static const struct MenuAction MultichoiceList_Exit[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_Monke[] =
+{
+    {gText_MonkePansear},
+ //   {gText_MonkePanpour},
+ //   {gText_MonkePansage},
+};
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -1004,3 +1011,4 @@ static const u8 *const sWirelessOptions_NoRecordMixBerryCrush[] =
     CableClub_Text_YouMayBattleHere,
     CableClub_Text_CancelSelectedItem,
 };
+

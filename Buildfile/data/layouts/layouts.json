@@ -3212,14 +3212,14 @@
       "blockdata_filepath": "data/layouts/SkyPillar_Outside/map.bin"
     },
     {
-      "id": "LAYOUT_SKY_PILLAR_1F",
-      "name": "SkyPillar_1F_Layout",
+      "id": "LAYOUT_CHATOT_TOWER_1F",
+      "name": "ChatotTower_1F_Layout",
       "width": 14,
       "height": 14,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
-      "border_filepath": "data/layouts/SkyPillar_1F/border.bin",
-      "blockdata_filepath": "data/layouts/SkyPillar_1F/map.bin"
+      "border_filepath": "data/layouts/ChatotTower_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ChatotTower_1F/map.bin"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_2F",
@@ -4322,14 +4322,14 @@
       "blockdata_filepath": "data/layouts/LaulevTown_ProfessorBirchsLabWithTable/map.bin"
     },
     {
-      "id": "LAYOUT_SKY_PILLAR_1F_CLEAN",
-      "name": "SkyPillar_1F_Clean_Layout",
+      "id": "LAYOUT_CHATOT_TOWER_1F_CLEAN",
+      "name": "ChatotTower_1F_Clean_Layout",
       "width": 14,
       "height": 14,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
-      "border_filepath": "data/layouts/SkyPillar_1F_Clean/border.bin",
-      "blockdata_filepath": "data/layouts/SkyPillar_1F_Clean/map.bin"
+      "border_filepath": "data/layouts/ChatotTower_1F_Clean/border.bin",
+      "blockdata_filepath": "data/layouts/ChatotTower_1F_Clean/map.bin"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_2F_CLEAN",
