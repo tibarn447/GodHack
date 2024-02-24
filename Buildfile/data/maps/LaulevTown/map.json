@@ -1,0 +1,111 @@
+{
+  "id": "MAP_LAULEV_TOWN",
+  "name": "LaulevTown",
+  "layout": "LAYOUT_LAULEV_TOWN",
+  "music": "MUS_LAULEV",
+  "region_map_section": "MAPSEC_LAULEV_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_LAULEV_WOODS",
+      "offset": -36,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_LAULEVCANYON",
+      "offset": -2,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LaulevTown_EventScript_FreeShit",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_LAULEV_TOWN_BRENDANS_HOUSE_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_LAULEV_TOWN_PROFESSOR_BIRCHS_LAB",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_LAULEV_TOWN_PROFESSOR_BIRCHS_LAB",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_LAULEV_TOWN_STATE",
+      "var_value": "0",
+      "script": "LaulevTown_EventScript_IntFlags"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_LAULEV_TOWN_STATE",
+      "var_value": "0",
+      "script": "LaulevTown_EventScript_IntFlags"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_LAULEV_TOWN_STATE",
+      "var_value": "0",
+      "script": "LaulevTown_EventScript_IntFlags"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LaulevTown_EventScript_SignTest"
+    }
+  ]
+}

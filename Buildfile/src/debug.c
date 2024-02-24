@@ -1156,7 +1156,7 @@ static u8 Debug_CheckToggleFlags(u8 id)
             result = FlagGet(FLAG_SYS_B_DASH);
             break;
         case DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_LOCATIONS:
-            result = FlagGet(FLAG_VISITED_LITTLEROOT_TOWN) &&
+            result = FlagGet(FLAG_VISITED_LAULEV_TOWN) &&
                 FlagGet(FLAG_VISITED_OLDALE_TOWN) &&
                 FlagGet(FLAG_VISITED_DEWFORD_TOWN) &&
                 FlagGet(FLAG_VISITED_LAVARIDGE_TOWN) &&
@@ -2604,7 +2604,7 @@ static void DebugAction_FlagsVars_ToggleFlyFlags(u8 taskId)
     if (FlagGet(FLAG_LANDMARK_BATTLE_FRONTIER))
     {
         PlaySE(SE_PC_OFF);
-        FlagClear(FLAG_VISITED_LITTLEROOT_TOWN);
+        FlagClear(FLAG_VISITED_LAULEV_TOWN);
         FlagClear(FLAG_VISITED_OLDALE_TOWN);
         FlagClear(FLAG_VISITED_DEWFORD_TOWN);
         FlagClear(FLAG_VISITED_LAVARIDGE_TOWN);
@@ -2626,7 +2626,7 @@ static void DebugAction_FlagsVars_ToggleFlyFlags(u8 taskId)
     else
     {
         PlaySE(SE_PC_LOGIN);
-        FlagSet(FLAG_VISITED_LITTLEROOT_TOWN);
+        FlagSet(FLAG_VISITED_LAULEV_TOWN);
         FlagSet(FLAG_VISITED_OLDALE_TOWN);
         FlagSet(FLAG_VISITED_DEWFORD_TOWN);
         FlagSet(FLAG_VISITED_LAVARIDGE_TOWN);
@@ -4063,7 +4063,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
 #undef tDigit
 
 #define SOUND_LIST_BGM \
-    X(MUS_LITTLEROOT_TEST) \
+    X(MUS_LAULEV_TEST) \
     X(MUS_GSC_ROUTE38) \
     X(MUS_CAUGHT) \
     X(MUS_VICTORY_WILD) \
@@ -4072,7 +4072,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_C_COMM_CENTER) \
     X(MUS_GSC_PEWTER) \
     X(MUS_C_VS_LEGEND_BEAST) \
-    X(MUS_ROUTE101) \
+    X(MUS_LAULEVWOODS) \
     X(MUS_ROUTE110) \
     X(MUS_ROUTE120) \
     X(MUS_PETALBURG) \
@@ -4118,7 +4118,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_ROUTE119) \
     X(MUS_CYCLING) \
     X(MUS_POKE_MART) \
-    X(MUS_LITTLEROOT) \
+    X(MUS_LAULEV) \
     X(MUS_MT_CHIMNEY) \
     X(MUS_ENCOUNTER_FEMALE) \
     X(MUS_LILYCOVE) \

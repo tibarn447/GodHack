@@ -1,8 +1,8 @@
 {
   "map_sections": [
     {
-      "map_section": "MAPSEC_LITTLEROOT_TOWN",
-      "name": "LITTLEROOT TOWN",
+      "map_section": "MAPSEC_LAULEV_TOWN",
+      "name": "LAULEV TOWN",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -129,15 +129,15 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_101",
-      "name": "ROUTE 101",
+      "map_section": "MAPSEC_LAULEV_WOODS",
+      "name": "LAULEV WOODS",
       "x": 4,
       "y": 10,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_102",
+      "map_section": "MAPSEC_LAULEV_CANYON",
       "name": "ROUTE 102",
       "x": 2,
       "y": 9,
