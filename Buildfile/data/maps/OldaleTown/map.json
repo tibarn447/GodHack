@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_LAULEVCANYON",
-      "offset": -9,
+      "offset": -20,
       "direction": "left"
     }
   ],
